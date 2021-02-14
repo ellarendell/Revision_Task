@@ -19,6 +19,10 @@ for time in times_list:
     #getting the largest time
     if time > max_time:
         max_time = time
-print(max_time)
+print(max_time,"max time")
 
-    
+#all of the race times together to calculate average
+total_times = 0
+for time in times_list:
+    total_times += time
+print(total_times,"total time")
